@@ -232,6 +232,7 @@ public class MainActivity extends AppCompatActivity {
                 current.setText(formatTime(player.getCurrentSeekLenght()));
                 total.setText(formatTime(player.getCurrentSongDuration()));
                 title.setText(player.getCurrentSongTitle());
+                seekBarProgress.run();
             } catch (Exception e) {
                 e.printStackTrace();
             }
