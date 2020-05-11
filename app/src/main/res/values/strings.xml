@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MP3-Player</string>
+    <string name="action_list">List</string>
+    <string name="zero">00:00:00</string>
+</resources>
